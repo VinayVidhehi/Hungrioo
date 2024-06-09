@@ -49,13 +49,13 @@ const Home = ({ route }) => {
   };
 
   const handleSectionChange = (newSection) => {
-    if (newSection === 0) {
-      navigation.navigate("Orders");
-    } else if (newSection === 1) {
-      navigation.navigate("Viewitem");
-    } else if (newSection === 2) {
-      navigation.navigate("Additem");
-    } else if (newSection === 3) {
+    if (newSection == 0) {
+      navigation.navigate("Home");
+    } else if (newSection == 1) {
+      navigation.navigate("Combo");
+    } else if (newSection == 2) {
+      navigation.navigate("Cart");
+    } else if (newSection == 3) {
       navigation.navigate("Account");
     }
   };
@@ -105,7 +105,6 @@ const styles = StyleSheet.create({
     backgroundColor: "#fff",
     alignItems: "center",
     justifyContent: "center",
-    marginTop: 30,
   },
   searchBarContainer: {
     marginTop: 25,

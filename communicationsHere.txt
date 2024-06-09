@@ -1,0 +1,4 @@
+parallel changes starting from 09/06/2024
+
+- use inline styling when you are developing and make it external only when you are sure about the design, not a compulsion but makes it easier for you to style
+- please remove marginTop from every component unless its required
